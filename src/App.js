@@ -1,25 +1,33 @@
-import logo from './logo.svg';
+import React, { useEffect} from 'react';
 import './App.css';
 
+
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  useEffect(() => {
+    // Fetch the data from the file
+    fetch('http://localhost:8000/bots') // Replace the URL with the correct path to your db.json file
+      .then((response) => response.json())
+      .then((data) => console.log(data))
+      .catch((error) => console.error('Error fetching data:', error));
+  }, []);
+
+
+return (
+  <>
+  <div>
+   <ul>
+    <li>
+      {bot.name}
+    </li>
+   </ul>
+  </div>
+  </>
+)
+
 }
+  
+        
+  
+
 
 export default App;
