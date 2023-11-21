@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/codechallange2/static/css/main.447ac4ed.css",
-    "main.js": "/codechallange2/static/js/main.aac4eaf5.js",
+    "main.js": "/codechallange2/static/js/main.fb59067c.js",
     "static/js/787.502f692f.chunk.js": "/codechallange2/static/js/787.502f692f.chunk.js",
     "index.html": "/codechallange2/index.html",
     "main.447ac4ed.css.map": "/codechallange2/static/css/main.447ac4ed.css.map",
-    "main.aac4eaf5.js.map": "/codechallange2/static/js/main.aac4eaf5.js.map",
+    "main.fb59067c.js.map": "/codechallange2/static/js/main.fb59067c.js.map",
     "787.502f692f.chunk.js.map": "/codechallange2/static/js/787.502f692f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.447ac4ed.css",
-    "static/js/main.aac4eaf5.js"
+    "static/js/main.fb59067c.js"
   ]
 }
